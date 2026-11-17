@@ -1,0 +1,12 @@
+{
+  "radius": 300,
+  "sources": ["https://t-data.seoul.go.kr/dataprovide/trafficdataviewfile.do?data_id=36", "https://www.data.go.kr/data/15000193/openapi.do"],
+  "points": [
+    {"id":"palace","group":"palace","name":"경복궁역","lat":37.575762,"lng":126.97353},
+    {"id":"nambu-rail","group":"nambu","name":"남부터미널역","lat":37.485013,"lng":127.016189},
+    {"id":"nambu-home","group":"nambu","name":"남부터미널.한일시멘트 정류장","lat":37.4847318427,"lng":127.014218486,"direction":"home","arsId":"22156"},
+    {"id":"nambu-commute","group":"nambu","name":"남부터미널 정류장","lat":37.484755,"lng":127.015601,"direction":"commute","arsId":"22157"},
+    {"id":"bio-home","group":"bio","name":"한국제약바이오협회 정류장","lat":37.4823078119,"lng":127.0016995144,"direction":"home","arsId":"22228"},
+    {"id":"bio-commute","group":"bio","name":"한국제약바이오협회 정류장","lat":37.482269,"lng":127.002689,"direction":"commute","arsId":"22248"}
+  ]
+}

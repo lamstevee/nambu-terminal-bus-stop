@@ -1,0 +1,11 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'kr.homebound.nambu'
+    compileSdk 35
+    defaultConfig { applicationId 'kr.homebound.nambu'; minSdk 26; targetSdk 35; versionCode 3; versionName '1.2.0' }
+    sourceSets { main { assets.srcDirs = ['../../web'] } }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+    buildTypes { release { minifyEnabled false } }
+}
+// 21.4.0 uses Kotlin 2.3 metadata unsupported by AGP 8.9's lint; keep this compatible release.
+dependencies { implementation 'com.google.android.gms:play-services-location:21.3.0' }

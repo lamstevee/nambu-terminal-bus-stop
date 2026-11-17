@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="8dp" android:background="#F0F4F9">
+    <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="남부터미널 → 한국제약바이오협회" android:textColor="#182B46" android:textStyle="bold" android:textSize="13sp" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+        <TextView android:layout_width="60dp" android:layout_height="wrap_content" android:text="461" android:textColor="#2363BF" android:textStyle="bold" android:textSize="17sp" />
+        <TextView android:id="@+id/state461" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:textColor="#182B46" android:textSize="12sp" />
+        <Chronometer android:id="@+id/timer461" android:layout_width="wrap_content" android:layout_height="wrap_content" android:countDown="true" android:textColor="#182B46" android:textSize="17sp" android:fontFamily="monospace" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+        <TextView android:layout_width="60dp" android:layout_height="wrap_content" android:text="641" android:textColor="#2363BF" android:textStyle="bold" android:textSize="17sp" />
+        <TextView android:id="@+id/state641" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:textColor="#182B46" android:textSize="12sp" />
+        <Chronometer android:id="@+id/timer641" android:layout_width="wrap_content" android:layout_height="wrap_content" android:countDown="true" android:textColor="#182B46" android:textSize="17sp" android:fontFamily="monospace" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+        <TextView android:layout_width="60dp" android:layout_height="wrap_content" android:text="4319" android:textColor="#24875B" android:textStyle="bold" android:textSize="17sp" />
+        <TextView android:id="@+id/state4319" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:textColor="#182B46" android:textSize="12sp" />
+        <Chronometer android:id="@+id/timer4319" android:layout_width="wrap_content" android:layout_height="wrap_content" android:countDown="true" android:textColor="#182B46" android:textSize="17sp" android:fontFamily="monospace" />
+    </LinearLayout>
+    <TextView android:id="@+id/freshness" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#53647C" android:textSize="11sp" />
+</LinearLayout>

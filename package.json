@@ -1,0 +1,6 @@
+{
+  "name": "homebound-nambu", "version": "1.0.0", "private": true, "type": "module",
+  "scripts": { "start": "node server.mjs", "test": "node --test test/*.test.mjs", "test:ui": "node test/ui.mjs" },
+  "dependencies": { "fast-xml-parser": "^5.3.0" },
+  "devDependencies": { "@playwright/test": "^1.56.0" }
+}
